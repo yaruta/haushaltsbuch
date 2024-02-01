@@ -1,0 +1,31 @@
+.statisticsNavigation {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-family: "Open Sans";
+}
+
+.statisticsNavigation > select {
+    height: 1.5rem;
+    width: 5.8rem;
+    background-color: rgb(58, 58, 58);
+    color: white;
+    border: none;
+}
+
+.chart {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    padding-right: 2.5rem;
+}
+
+@media (max-width: 1200px) {
+    .chart  {
+        flex-direction: column;
+    }
+    .firstChart {
+        width: 100%;
+    }
+}

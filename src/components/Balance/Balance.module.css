@@ -1,0 +1,46 @@
+.balanceSection {
+    padding: 2rem;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    background-color: rgb(34, 34, 37);
+    border-radius: 1.5rem 0 0 1.5rem;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-self: flex-start;
+    color: rgb(148, 148, 148);   
+    margin-top: 1rem;
+}
+
+.balanceSection > h1 {
+    margin-top: 0;
+}
+
+.balanceSection > div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.balanceSection > div:last-of-type{
+    margin-top: 1rem;
+    font-weight: 400;
+}
+
+.balanceSection > .positive > span:last-of-type{
+    color: rgba(0, 182, 189);
+}
+
+.balanceSection > .negative > span:last-of-type{
+    color: rgb(255, 80, 103);
+}
+
+@media (max-width: 992px) {
+    .balanceSection {
+        width: 83%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 1.5rem;
+    }
+}
+

@@ -1,0 +1,73 @@
+.itemsList {
+    width: 70%;
+    margin-left: 5%;
+    margin-right: 2rem;
+}
+
+.itemsList > ul{
+    padding: 0; 
+}
+
+.backChart {
+    width: 60%;
+    height: 7px;
+    border-radius: 2px;
+    background-color: rgb(34, 34, 37);
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.einnahme {
+    width: 100%;
+    height: 5px;
+    background-color: rgba(0, 182, 189, 1) ;
+    margin-left: 0;
+    margin-right: auto;
+    border-radius: 2px;
+}
+
+.ausgabe {
+    width: 20%;
+    height: 5px;
+    background-color: rgba(255, 80, 103, 1);
+    margin-left: 0;
+    margin-right: auto;
+    border-radius: 2px;   
+}
+
+.monthBalance {
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    color: rgb(148, 148, 148);   
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 37);
+    border-radius: 1.5rem;
+    padding: .8rem 1.5rem .8rem 1.5rem;
+}
+
+ .revenue {
+    border: 1px solid rgba(0, 182, 189, 0.3);
+    color: white;
+}
+
+ .expenses {
+    border: 1px solid rgba(255, 80, 103, 0.3);
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .itemsList {
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .itemsList {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}

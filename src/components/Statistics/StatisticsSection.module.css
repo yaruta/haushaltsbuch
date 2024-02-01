@@ -1,0 +1,30 @@
+.statistics-section {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(20, 20, 22, 0.5);
+    border: 1px solid rgb(189, 189, 189);
+    box-shadow: 0 0 5px rgb(189, 189, 189);
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+.statistics-section > h1{
+    color: white;
+    margin-top: 0;
+}
+
+@media (max-width: 1400px) {
+    .statistics-section  {
+        width: 80%;
+    }
+}
+
+@media (max-width: 776px) {
+    .statistics-section  {
+        margin-top: 2rem;
+        width: 90%;
+    }
+}
+

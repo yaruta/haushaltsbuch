@@ -1,0 +1,29 @@
+.addButton {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    padding: .3rem 2rem .3rem 2rem;
+    border-radius: 1.5rem 0 0 1.5rem;
+}
+
+.addButton button {
+    min-width: 15rem;
+    height: 2.5rem;
+    border-radius: 1rem;
+    border: none;   
+    background-color: rgb(58, 58, 58);
+    border: 1px solid rgb(0, 182, 189);
+    color: rgb(148, 148, 148);
+    transition: background-color .3s ease-out, color .3s ease-out;
+}
+
+.addButton button:hover {
+    background-color: white;
+    color: rgb(0, 182, 189);
+}
+
+@media (max-width: 992px) {
+    .addButton {
+        display: none;
+    }
+}

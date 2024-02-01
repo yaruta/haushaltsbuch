@@ -1,0 +1,96 @@
+.header{
+    height: 4rem;
+    padding: 1rem 2rem 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Open Sans';
+}
+ .logoSection {
+    display: flex;
+    align-items: center;
+}
+
+ .logoSection > h1 {
+    text-align: center;
+    color: rgb(255, 80, 103);
+    margin: 0;
+    padding-left: 1rem;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.header > .logoSection > img {
+    width: 3rem;
+    height: 3rem;
+}
+
+.navigationSection {
+ display: flex; 
+ color: grey;
+ justify-content: flex-end;
+ align-items: center;
+}
+
+.navigationSection > ul {
+    display: flex;
+    margin-right: 2rem;
+
+}
+
+.navigationSection > ul > li{
+    list-style: none;
+}
+
+.navigationSection > ul > li > a{
+    color: grey; 
+    font-size: 16px;
+    font-family: 'Open Sans';
+    padding-right: 2rem;
+    text-decoration: none;
+}
+
+.userInfo {
+    display: flex;
+}
+
+.name {
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid grey;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.name:hover,
+.name:active {
+    background-color: azure;
+}
+
+.list a:hover,
+.list a.active {
+    color: white;
+    font-weight: 400;
+}
+
+@media (max-width: 992px) {
+    .userInfo {
+        display: none;
+    }
+    .navigationSection > ul > li:last-of-type > a{
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+       flex-direction: column;
+       align-items: flex-start;
+    }
+
+    .navigationSection > ul {
+        padding-left: 1rem;
+    }   
+}

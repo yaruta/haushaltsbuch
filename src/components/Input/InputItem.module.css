@@ -1,0 +1,54 @@
+.inputItem {
+    list-style: none;
+    background-color: rgb(34, 34, 37);
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    color: rgb(148, 148, 148);  
+    padding: 1rem 1.5rem;
+    font-family: 'Open Sans';
+}
+
+.dateLine {
+    font-size: 14px;
+    line-height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleLine {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    padding-top: 1rem;
+}
+
+.dateLine > div:first-of-type {
+    flex-grow: 1;
+}
+
+.button {
+    width: 16px;
+    height: 16px;
+    filter: invert(50%);
+    transition: transform .3s ease-out;
+}
+
+.button:first-of-type {
+    padding-right: 1rem;
+}
+
+.button:hover{
+    filter: invert(100%);
+    transform: scale(115%);
+}
+
+.expenses {
+    color: rgb(255, 80, 103);
+}
+
+.revenue {
+    color: rgba(0, 182, 189);
+}

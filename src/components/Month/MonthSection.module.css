@@ -1,0 +1,14 @@
+.contentSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentSection:first-of-type {
+    align-items: center;
+}
+
+@media (max-width: 992px) {
+    .contentSection {
+        flex-direction: column;
+    }
+}
